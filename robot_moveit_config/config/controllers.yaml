@@ -1,0 +1,42 @@
+controller_list:
+  - name: arm_1
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - grasping_frame_joint_one
+      - joint1_1
+      - joint1_2
+      - joint1_3
+      - joint1_4    
+  - name: arm_2
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - grasping_frame_joint_two
+      - joint2_1
+      - joint2_2
+      - joint2_3
+      - joint2_4   
+  - name: arm_3
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - grasping_frame_joint_three
+      - joint3_1
+      - joint3_2
+      - joint3_3
+      - joint3_4
+  - name: arm_4
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - grasping_frame_joint_four
+      - joint4_1
+      - joint4_2
+      - joint4_3
+      - joint4_4
+     

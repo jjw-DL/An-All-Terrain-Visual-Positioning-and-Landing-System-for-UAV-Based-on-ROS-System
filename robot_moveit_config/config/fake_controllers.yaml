@@ -1,0 +1,29 @@
+controller_list:
+  - name: fake_arm_1_controller
+    joints:
+      - joint1_1
+      - joint1_2
+      - joint1_3
+      - joint1_4
+      - grasping_frame_joint_one
+  - name: fake_arm_2_controller
+    joints:
+      - joint2_1
+      - joint2_2
+      - joint2_3
+      - joint2_4
+      - grasping_frame_joint_two
+  - name: fake_arm_3_controller
+    joints:
+      - joint3_1
+      - joint3_2
+      - joint3_3
+      - joint3_4
+      - grasping_frame_joint_three
+  - name: fake_arm_4_controller
+    joints:
+      - joint4_1
+      - joint4_2
+      - joint4_3
+      - joint4_4
+      - grasping_frame_joint_four

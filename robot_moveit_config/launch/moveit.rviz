@@ -1,0 +1,491 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 0
+    Name: Displays
+    Property Tree Widget:
+      Expanded: ~
+      Splitter Ratio: 0.74256
+    Tree Height: 354
+  - Class: rviz/Help
+    Name: Help
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.03
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: moveit_rviz_plugin/MotionPlanning
+      Enabled: true
+      Move Group Namespace: ""
+      MoveIt_Goal_Tolerance: 0
+      MoveIt_Planning_Attempts: 10
+      MoveIt_Planning_Time: 5
+      MoveIt_Use_Constraint_Aware_IK: true
+      MoveIt_Warehouse_Host: 127.0.0.1
+      MoveIt_Warehouse_Port: 33829
+      MoveIt_Workspace:
+        Center:
+          X: 0
+          Y: 0
+          Z: 0
+        Size:
+          X: 2
+          Y: 2
+          Z: 2
+      Name: MotionPlanning
+      Planned Path:
+        Color Enabled: false
+        Interrupt Display: false
+        Links:
+          All Links Enabled: true
+          Expand Joint Details: false
+          Expand Link Details: false
+          Expand Tree: false
+          Link Tree Style: Links in Alphabetic Order
+          base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          grasping_fame_four:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          grasping_fame_one:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          grasping_fame_three:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          grasping_fame_two:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          link1_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link1_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link1_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link1_4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link2_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link2_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link2_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link2_4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link3_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link3_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link3_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link3_4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link4_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link4_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link4_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link4_4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+        Loop Animation: false
+        Robot Alpha: 0.5
+        Robot Color: 150; 50; 150
+        Show Robot Collision: false
+        Show Robot Visual: true
+        Show Trail: false
+        State Display Time: 0.05 s
+        Trail Step Size: 1
+        Trajectory Topic: move_group/display_planned_path
+      Planning Metrics:
+        Payload: 1
+        Show Joint Torques: false
+        Show Manipulability: false
+        Show Manipulability Index: false
+        Show Weight Limit: false
+        TextHeight: 0.08
+      Planning Request:
+        Colliding Link Color: 255; 0; 0
+        Goal State Alpha: 1
+        Goal State Color: 250; 128; 0
+        Interactive Marker Size: 0.1
+        Joint Violation Color: 255; 0; 255
+        Planning Group: arm_1
+        Query Goal State: true
+        Query Start State: false
+        Show Workspace: false
+        Start State Alpha: 1
+        Start State Color: 0; 255; 0
+      Planning Scene Topic: move_group/monitored_planning_scene
+      Robot Description: robot_description
+      Scene Geometry:
+        Scene Alpha: 1
+        Scene Color: 50; 230; 50
+        Scene Display Time: 0.2
+        Show Scene Geometry: true
+        Voxel Coloring: Z-Axis
+        Voxel Rendering: Occupied Voxels
+      Scene Robot:
+        Attached Body Color: 150; 50; 150
+        Links:
+          All Links Enabled: true
+          Expand Joint Details: false
+          Expand Link Details: false
+          Expand Tree: false
+          Link Tree Style: Links in Alphabetic Order
+          base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          grasping_fame_four:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          grasping_fame_one:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          grasping_fame_three:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          grasping_fame_two:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          link1_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link1_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link1_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link1_4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link2_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link2_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link2_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link2_4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link3_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link3_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link3_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link3_4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link4_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link4_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link4_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          link4_4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+        Robot Alpha: 0.5
+        Show Robot Collision: false
+        Show Robot Visual: true
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: false
+        base_link:
+          Value: true
+        camera_depth_frame:
+          Value: false
+        camera_depth_optical_frame:
+          Value: true
+        camera_link:
+          Value: false
+        camera_rgb_frame:
+          Value: false
+        camera_rgb_optical_frame:
+          Value: false
+        grasping_fame_four:
+          Value: false
+        grasping_fame_one:
+          Value: false
+        grasping_fame_three:
+          Value: false
+        grasping_fame_two:
+          Value: false
+        link1_1:
+          Value: false
+        link1_2:
+          Value: false
+        link1_3:
+          Value: false
+        link1_4:
+          Value: false
+        link2_1:
+          Value: false
+        link2_2:
+          Value: false
+        link2_3:
+          Value: false
+        link2_4:
+          Value: false
+        link3_1:
+          Value: false
+        link3_2:
+          Value: false
+        link3_3:
+          Value: false
+        link3_4:
+          Value: false
+        link4_1:
+          Value: false
+        link4_2:
+          Value: false
+        link4_3:
+          Value: false
+        link4_4:
+          Value: false
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        camera_link:
+          camera_depth_frame:
+            camera_depth_optical_frame:
+              base_link:
+                link1_1:
+                  link1_2:
+                    link1_3:
+                      link1_4:
+                        grasping_fame_one:
+                          {}
+                link2_1:
+                  link2_2:
+                    link2_3:
+                      link2_4:
+                        grasping_fame_two:
+                          {}
+                link3_1:
+                  link3_2:
+                    link3_3:
+                      link3_4:
+                        grasping_fame_three:
+                          {}
+                link4_1:
+                  link4_2:
+                    link4_3:
+                      link4_4:
+                        grasping_fame_four:
+                          {}
+          camera_rgb_frame:
+            camera_rgb_optical_frame:
+              {}
+      Update Interval: 0
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 4096
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: PointCloud2
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.01
+      Style: Flat Squares
+      Topic: /output
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: base_link
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+  Value: true
+  Views:
+    Current:
+      Class: rviz/XYOrbit
+      Distance: 1.87606
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.06
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0.177729
+        Y: 0.00921454
+        Z: 2.23518e-07
+      Name: Current View
+      Near Clip Distance: 0.01
+      Pitch: 0.0797972
+      Target Frame: base_link
+      Value: XYOrbit (rviz)
+      Yaw: 1.67677
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1056
+  Help:
+    collapsed: false
+  Hide Left Dock: false
+  Hide Right Dock: false
+  MotionPlanning:
+    collapsed: false
+  MotionPlanning - Slider:
+    collapsed: false
+  QMainWindow State: 000000ff00000000fd0000000100000000000002b1000003dafc0200000007fb000000100044006900730070006c0061007900730100000028000001a3000000dd00fffffffb0000000800480065006c00700000000342000000bb0000007600fffffffb0000000a0056006900650077007300000003b0000000b0000000b000fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb0000002e004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d00200053006c00690064006500720000000000ffffffff0000004a00fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e006701000001d100000231000001cc00ffffff0000048a000003da00000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Views:
+    collapsed: false
+  Width: 1857
+  X: 63
+  Y: 24

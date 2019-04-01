@@ -1,0 +1,6 @@
+<launch>
+
+	<node pkg="robot_action" name="robot_controller" type="robot_controller" output="screen"> <!--launch-prefix="xterm−e"-->
+	</node>
+
+</launch>

@@ -1,0 +1,16 @@
+<launch>
+	<node pkg="robots_plan" name="arm1_planning" type="arm1_planning" output="screen"> 
+	</node>
+
+	<node pkg="robots_plan" name="arm2_planning" type="arm2_planning" output="screen"> 
+	</node>
+
+	<node pkg="robots_plan" name="arm3_planning" type="arm3_planning" output="screen"> 
+	</node>
+
+	<node pkg="robots_plan" name="arm4_planning" type="arm4_planning" output="screen"> 
+	</node>
+
+	<node pkg="robots_plan" name="success_landing" type="success_landing" output="screen"> 
+	</node>
+</launch>

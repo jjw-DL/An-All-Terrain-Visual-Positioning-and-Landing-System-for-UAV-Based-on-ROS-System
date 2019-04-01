@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="search_keypoints" name="terrain_shooting" type="terrain_shooting" output="screen"> 
+	</node>
+
+	<node pkg="search_keypoints" name="search_keypoints" type="search_keypoints" output="screen"> 
+	</node>
+</launch>
