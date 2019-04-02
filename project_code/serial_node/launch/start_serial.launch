@@ -1,0 +1,12 @@
+<launch>
+
+	<node pkg="serial_node" name="serial_node" type="serial_node" output="screen"> <!--launch-prefix="xterm−e"-->
+	</node>
+
+	<node pkg="serial_node" name="listener" type="listener" output="screen"> <!--launch-prefix="xterm−e"-->
+	</node>
+
+	<node pkg="serial_node" name="degree" type="degree" output="screen"> <!--launch-prefix="xterm−e"-->
+	</node>
+
+</launch>
