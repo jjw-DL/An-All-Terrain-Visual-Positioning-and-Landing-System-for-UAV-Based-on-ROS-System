@@ -5,12 +5,12 @@
 ### patent------专利相关内容
 ### picture------相机标定图片和其他图片
 ### project_code------项目代码
- - pcd_file  存储点云文件
- - robot  URDF文件
- - robot_action  MOVEIT_ACTION端 接受轨迹信息
- - robot_moveit_config  MOVEIT的配置文件
- - robots_plan  机械臂规划
- - search_keypoints  关键点查找
- - serial  串口
- - serial_node  串口程序
+ - pcd_file  （存储点云文件）
+ - robot  （URDF文件）
+ - robot_action  （MOVEIT_ACTION端 接受轨迹信息）
+ - robot_moveit_config  （MOVEIT的配置文件）
+ - robots_plan  （机械臂规划）
+ - search_keypoints  （关键点查找）
+ - serial  （串口驱动）
+ - serial_node  （串口控制程序）
 ### video_and_ppt  项目视频和ppt
